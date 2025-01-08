@@ -1,0 +1,63 @@
+
+
+        .outerbody {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0; /* Increased spacing */
+            border: 1.5px solid #ccc;
+            border-radius: 8px; /* Rounded corners */
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        label {
+            color: #555;
+        }
+        .forgot-password {
+            text-align: left;
+            margin-top: 12px; /* Adjusted margin */
+            font-size: 14px;
+            color: #007bff;
+            text-decoration: none;
+            display: ruby-base-container;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+    

@@ -1,0 +1,46 @@
+
+.navbar {
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Align items with space between them */
+  align-items: center; /* Center items vertically */
+  padding: 10px 20px; /* Add padding to the navbar */
+  max-width: 100%; /* Set maximum width to prevent horizontal overflow */
+  overflow-x: hidden; /* Hide horizontal overflow */
+  background-color: #333;
+}
+.navbar{
+  position: sticky;
+  top:0;
+}
+.active{
+  color:red;
+  font-weight: 900;
+}
+.navbar ul {
+  list-style-type: none; /* Remove bullet points from the list */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.navbar ul li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Add some space between list items */
+  background-color: aqua;
+  padding: 0.5rem;
+  border-radius: 2px;
+  align-items: center;
+ 
+}
+.navbar ul li a{
+  text-decoration: none;
+}
+.navbar .title {
+  text-decoration: none; /* Remove underline from the link */
+  font-size: 24px; /* Adjust font size */
+  color: #ffffff; /* Set text color */
+}
+body{
+margin: 0px;
+}
+
+

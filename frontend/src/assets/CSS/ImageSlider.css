@@ -1,0 +1,65 @@
+.imageslider {
+    position: relative;
+    width: 100vh;
+    height: 50vh;
+    overflow: hidden;
+  }
+  
+  .slide {
+    
+    display:none;
+  }
+  
+  img{
+    object-fit:contain;
+    min-width: 98vw;
+    height: 50vh;
+  }
+  .slide.active {
+    position: relative;
+    min-width: 98vw;
+    height: 50vh;
+    object-fit:fill;
+    display: block;
+    
+  }
+  .imageslide-container{
+    position:relative;
+    width: 100%;
+    height: 50%;
+  }
+  .radiobuttoncontainer {
+     position: relative;
+    bottom: 0;
+    left: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background color for better visibility */
+    z-index: 2;
+    
+}
+input[type='radio']{
+    cursor: pointer;
+}
+.left-arrow{
+    position: absolute;
+    top:50%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+    cursor: pointer;
+}
+.right-arrow{
+    position: absolute;
+    top:0;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    right: 0;
+    cursor: pointer;
+}

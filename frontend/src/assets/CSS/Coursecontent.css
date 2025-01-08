@@ -1,0 +1,15 @@
+.coursecontent{
+    display: flex;
+    border: 2px solid grey;
+    height:88vh; 
+    
+    overflow-y: auto;
+}
+.coursecontentheader{
+font-size: 4vh;
+border-left: 2px solid grey;
+border-right: 2px solid grey;
+border-top: 2px solid grey;
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
